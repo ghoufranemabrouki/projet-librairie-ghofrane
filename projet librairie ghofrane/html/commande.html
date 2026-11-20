@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commande Page</title>
+    <!-- css  general -->
+    <link rel="stylesheet" href="../css/index.css">
+
+    <!-- contact css -->
+    <link rel="stylesheet" href="../css/contact.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo">
+            <img src="../images/logo.jpg" alt="">
+        </a>
+
+        <nav class="navbar">
+            <a href="index.html">Page d'accueil</a>
+            <a href="index.html">a propos de nous</a>
+            <a href="index.html">catalogue de livres</a>
+            <a href="commande.html">commandes en ligne</a>
+            <a href="club.html">club de lecture</a>
+            <a href="contact.html">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <div class="fas fa-bars" id="menu-btn"></div>
+        </div>
+
+    </header>
+
+    <!-- header section ends  -->
+
+
+    <!-- command  section   start -->
+
+    <article id="command">
+        <h1 class="heading">command<span> en ligne </span> </h1>
+
+        <div class="contact-in">
+            <div class="contact-map1 ">
+
+                <h2>Options de contact</h2>
+
+                <p>Si vous préférez finaliser votre réservation par téléphone ou par email, vous pouvez nous contacter
+                    aux coordonnées suivantes :</p>
+
+                <ul>
+                    <li>Téléphone: +216-71-123-456</li>
+                    <li>Email: contact@example.com</li>
+                </ul>
+            </div>
+            <div class="contact-form">
+                <h1>commandes en ligne</h1>
+                <form>
+                    <label for="nom">Nom et Prenom:</label>
+                    <input type="text" placeholder="Votre nom et Prenom" size="30" class="contact-form-txt" />
+                    <label for="ageRange"> age:</label>
+                    <input type="number" id="age" name="ageRange" value="18" min="18" class="contact-form-txt">
+                    <label for="adresse email "> adresse e-mail : </label>
+                    <input type="email" id="email" name="email" placeholder=" Veuillez saisir une @"
+                        class="contact-form-txt">
+                    <label for="titre">Titre du livre :</label>
+                    <input type="text" id="titre" name="titre" placeholder="titre" required class="contact-form-txt">
+
+                    <label for="auteur">Auteur :</label>
+                    <input type="text" id="auteur" name="auteur" placeholder="auteur" class="contact-form-txt">
+
+                    <label for="quantite">Quantité :</label>
+                    <input type="number" id="quantite" name="quantite" min="1" required class="contact-form-txt">
+
+
+                    <button class="contact-form-btn">Envoier</button>
+
+                </form>
+            </div>
+        </div>
+
+    </article>
+
+
+
+    <!-- command  section   start -->
+
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="share">
+            <a href="#" class="fab fa-facebook-f"></a>
+            <a href="#" class="fab fa-google"></a>
+        </div>
+
+        <div class="navbar">
+            <a href="#">Page d'accueil</a>
+            <a href="#about">a propos de nous</a>
+            <a href="#books">catalogue de livres</a>
+            <a href="commande.html">commandes en ligne</a>
+            <a href="club.html">club de lecture</a>
+            <a href="contact.html">contact</a>
+         
+            
+        </div>
+
+
+        <div class="credit">Créé par <span>Ghofrane</span> | Tous droits réservés</div>
+
+
+    </section>
+   
+    <!-- footer section ends -->
+</body>
+
+</html>
